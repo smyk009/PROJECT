@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PROJECT';
-  itemNavigate = 'recipe';
+  itemNavigate = '';
   onNavigate(itemSelected: string) {
     this.itemNavigate = itemSelected;
   }
